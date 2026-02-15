@@ -1,0 +1,78 @@
+body {
+    background-color: #0a0c0f; /* Темный фон как в оригинале */
+    color: #c0c4cc; /* Светлый текст */
+    font-family: 'Courier New', monospace; /* Моноширинный шрифт для атмосферы */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-left: 3px solid #4ecdc4; /* Акцентная линия слева как в редакторе кода */
+}
+
+.code-snippet {
+    background-color: #1e2127;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #abb2bf;
+    overflow-x: auto;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+.code-snippet .keyword { color: #e06c75; } /* Ключевые слова розовым */
+.code-snippet .function { color: #61afef; } /* Функции синим */
+.code-snippet .string { color: #98c379; } /* Строки зеленым */
+
+h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin: 10px 0 5px;
+    font-weight: 500;
+}
+
+.subtitle {
+    color: #4ecdc4; /* Бирюзовый цвет для подзаголовка */
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed #4ecdc4;
+    padding-bottom: 20px;
+}
+
+.skills h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+    border-left: 4px solid #4ecdc4;
+    padding-left: 15px;
+}
+
+.skill-card {
+    background-color: #15181d;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #2a2f36;
+}
+
+.skill-card h3 {
+    color: #4ecdc4;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.skill-card p {
+    margin: 0;
+    color: #a0a8b7;
+}
